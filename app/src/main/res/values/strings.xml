@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MovieNight</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Latest Movies</string>
+    <string name="title_section3">Hot Movies</string>
+    <string name="title_section4">My Favorite</string>
+    <string name="title_section5">My Invitation</string>
+    <string name="title_section6">Log out</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_hottest_movies">HottestMovies</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="title_activity_user_liked_movies">UserLikedMovies</string>
+    <string name="title_activity_add_review">AddReviewActivity</string>
+    <string name="title_activity_user_like_movies">UserLikeMovies</string>
+    <string name="title_activity_hot_movie">HotMovie</string>
+    <string name="title_activity_latest_movie">LatestMovie</string>
+    <string name="title_activity_invitation">InvitationActivity</string>
+    <string name="title_activity_recived">RecivedActivity</string>
+    <string name="title_activity_sended">SendedActivity</string>
+    <string name="title_activity_change_user_profile">ChangeUserProfile</string>
+
+</resources>

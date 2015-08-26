@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yzha502.movienight" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".HottestMovies"
+            android:label="@string/title_activity_hottest_movies" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".MovieDetailActivity"
+            android:label="@string/title_activity_movie_detail" >
+        </activity>
+        <activity
+            android:name=".UserLikedMovies"
+            android:label="@string/title_activity_user_liked_movies" >
+        </activity>
+        <activity
+            android:name=".AddReviewActivity"
+            android:label="@string/title_activity_add_review" >
+        </activity>
+        <activity
+            android:name=".HotMovie"
+            android:label="@string/title_activity_hot_movie" >
+        </activity>
+        <activity
+            android:name=".LatestMovie"
+            android:label="@string/title_activity_latest_movie" >
+        </activity>
+        <activity
+            android:name=".InvitationActivity"
+            android:label="@string/title_activity_invitation" >
+        </activity>
+        <activity
+            android:name=".RecivedActivity"
+            android:label="@string/title_activity_recived" >
+        </activity>
+        <activity
+            android:name=".SendedActivity"
+            android:label="@string/title_activity_sended" >
+        </activity>
+        <activity
+            android:name=".ChangeUserProfile"
+            android:label="@string/title_activity_change_user_profile" >
+        </activity>
+    </application>
+
+</manifest>
